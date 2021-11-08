@@ -9,7 +9,16 @@
    }
 
    label {
-       float: left;
+       font-family: Uniform Pro Con;
+        color: white;
+        margin-right: 2vw;
+   }
+
+   #who_are_you input {
+       float: right;
+       border-radius: 25px;
+       border: 1px solid #6259FA;
+       background-color: #16162A;
    }
 
    span {
@@ -45,12 +54,6 @@
         text-align: center;
 
    }
-
-   #who_are_you label{
-    color: white;
-
-}
-
 
 
 
