@@ -1,0 +1,56 @@
+   @font-face {
+       font-family: Sharpiro;
+       src: url(/fonts/sharpiro-regular.woff2);
+   }
+
+   @font-face {
+       font-family: Uniform Pro Con;
+       src: url(/fonts/uniform-pro-con-medium.woff2);
+   }
+
+   label {
+       float: left;
+   }
+
+   span {
+       display: block; 
+       overflow: hidden; 
+   }
+
+   form {
+        margin-top: 50vw;
+        margin-left: 5vw; 
+        margin-right: 5vw;
+   }
+
+   h1 {
+       position: relative; 
+        top: -10.5vw;
+       font-size: 6vw;
+       font-family: Sharpiro;
+       text-transform: uppercase;
+       color: transparent; 
+        -webkit-text-stroke: 0.01px;
+        -webkit-text-stroke-color: #B9F8B9;
+        text-align: center;
+
+   }
+
+   h2 {
+        position: relative; 
+        top: -5vw;
+        font-family: Uniform Pro Con;
+        font-weight: normal;
+        color: #B9F8B9;
+        text-align: center;
+
+   }
+
+   #who_are_you label{
+    color: white;
+
+}
+
+
+
+
