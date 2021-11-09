@@ -24,9 +24,17 @@
 
    span {
        position: relative; 
-       top: -5vw;
+       top: -6.5vw;
        display: block; 
        overflow: hidden; 
+       color: white;
+   }
+
+   input {
+       padding: 2vw;
+       color: white;
+       font-family: Uniform Pro Con;
+        font-weight: normal;
    }
 
    form {
@@ -59,5 +67,72 @@
 
    }
 
+  .next {
+    
+    font-family: Uniform Pro Con;
+    font-weight: normal;
+    background-color: #16162A;
+    border: 1px solid #5BE080;
+    color: white;
+    border-radius: 10px;
+    padding: 1vw 6vw 1vw 6vw;
+    width: 40%;
+    margin: auto; 
+    display: flex; 
+    justify-content: center;
+    margin-top: 5vw;
+  } 
+
+  .kalender {
+      border: 1px solid #6259FA;
+      background-color: #16162A; 
+      border-radius: 10px;
+      float: right;
+      height: 2vw;
+      position: relative;
+      top: -5.5vw;
+      color: white;
+     
+  }
+
+  #continents {
+        border: 1px solid #6259FA;
+        background-color: #16162A; 
+        border-radius: 10px; 
+        width: 40%;
+        position: relative;
+        top: -16.5vw;
+        font-family: Uniform Pro Con;
+        font-weight: normal;
+        float: right;
+        color: white;
+        padding: 0.5vw 0vw 0.5vw 1vw;
+
+  }
+
+  .continent {
+    position: relative;
+    line-height: 4;
+    
+
+  }
+
+  #countries {
+    border: 1px solid #6259FA;
+    background-color: #16162A; 
+    color: white;
+    border-radius: 10px;
+    padding: 0.5vw 0vw 0.5vw 1vw;
+    position: relative;
+    font-family: Uniform Pro Con;
+    font-weight: normal;
+    float: right;
+    right: -31vw;
+    margin-bottom: 10vw;
+    top: -6vw;
+    width: 40%;
+  }
+
+ 
 
 
