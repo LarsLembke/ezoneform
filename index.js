@@ -10,9 +10,9 @@ document.addEventListener("DOMContentLoaded", start);
 
 function start() {
 
-    console.log("stärt");
+    console.log("start");
 
-    const submitButton;
+    const submitButton = "";
     const form = document.querySelector("form");
 
     submitButton.addEventListener("mousedown", readData);
