@@ -178,6 +178,19 @@
     
   }
 
+  #gaming_styles_grid {
+    position: relative;
+    left: -2vw;
+    top: -4vw;
+      line-height: 1.5;
+      display: grid; 
+      grid-template-columns: 5fr 0.2fr 5fr 0.2fr;
+      border: none;
+      
+  }
+
+ 
+
  
 
 
