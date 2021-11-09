@@ -83,6 +83,13 @@
     margin-top: 5vw;
   } 
 
+  .next2 {
+      position: relative;
+      left: -17vw;
+      margin: auto; 
+      width: 40%;
+  }
+
   .kalender {
       border: 1px solid #6259FA;
       background-color: #16162A; 
@@ -141,7 +148,7 @@
     background-color: #16162A; 
     color: white;
     border-radius: 10px;
-    padding: 0.5vw 0vw 0.5vw 1vw;
+    padding: 0.5vw 0vw 0.5vw 2vw;
     margin-bottom: 4vw;
   }
 
@@ -153,7 +160,8 @@
     background-color: #16162A; 
     color: white;
     border-radius: 10px;
-    padding: 0.5vw 0vw 0.5vw 1vw;
+    padding: 0.5vw 0vw 0.5vw 2vw;
+    margin-bottom: 8vw;
   }
 
 .psw {
@@ -169,6 +177,19 @@
       float: left;
     
   }
+
+  #gaming_styles_grid {
+    position: relative;
+    left: -2vw;
+    top: -4vw;
+      line-height: 1.5;
+      display: grid; 
+      grid-template-columns: 5fr 0.2fr 5fr 0.2fr;
+      border: none;
+      
+  }
+
+ 
 
  
 
