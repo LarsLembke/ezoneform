@@ -28,8 +28,8 @@ function start() {
             e.preventDefault()
 
             console.log("next hide")
-            document.querySelector(`section_${i}`).classList.add('hide');
-            document.querySelector(`section_${i+1}`).classList.remove('hide');
+            document.querySelector(`.section_${i}`).classList.add('hide');
+            document.querySelector(`.section_${i+1}`).classList.remove('hide');
         })
 
     })
