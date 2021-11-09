@@ -12,12 +12,33 @@ function start() {
 
     console.log("start");
 
-    const submitButton = "";
+
+    const submitButton = document.querySelector(".submit");
     const form = document.querySelector("form");
 
-    submitButton.addEventListener("mousedown", readData);
+    // document.querySelector(".submit").addEventListener("mousedown", readData);
+
+    document.querySelectorAll(".next").forEach((butt, i) => {
+        console.log("next button")
+
+        butt.setAttribute('id', `button_${i}`);
+        form.addEventListener("submit", e => {
+            // butt.preventDefault()
+            // form.preventDefault()
+            e.preventDefault()
+
+            console.log("next hide")
+            document.querySelector(`section_${i}`).classList.add('hide');
+            document.querySelector(`section_${i+1}`).classList.remove('hide');
+        })
+
+    })
+
 
     function readData() {
+
+        console.log("readData");
+
         const data = {
             firstname: form.elements.firstname.value,
             lastname: form.elements.lastname.value,
@@ -31,6 +52,15 @@ function start() {
             improvement: form.elements.improvement.value,
             service: form.elements.service.value
         }
+
+        postTheData(data);
+
+    }
+
+    function postTheData(data) {
+
+        post(data);
+
     }
 
 }
