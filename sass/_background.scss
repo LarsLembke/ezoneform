@@ -33,4 +33,47 @@ body {
     width: 100vw;
 }
 
+@media only screen and (min-width: 600px) {
+#dots_top {
+    margin-top: -30vw;
+    
+}
+
+#dots_top img {
+    position: relative;
+    padding-bottom: 20vw;
+    top: 12vw;
+    width: 60vw;
+    height: 50vw;
+    left: 40vw;
+}
+
+#web_dots_bottom {
+    overflow: hidden;
+    position: relative;
+    margin-top: -180vw;
+    padding-top: 70vw; 
+    padding-bottom: 20vw;
+    left: -5vw;
+    
+}
+
+#web_dots_bottom img {
+    position: relative; 
+    height: 80vw;
+    width: 30vw;
+    margin-top: -40vw;
+    top: -20vw;
+
+
+}
+
+#dots_bottom img {
+    visibility: hidden;
+
+    
+}
+
+}
+
 

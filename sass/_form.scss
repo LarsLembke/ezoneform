@@ -84,12 +84,11 @@
   } 
 
   .next2 {
-      position: relative;
-      left: -17vw;
-      margin: auto; 
-      width: 40%;
-  }
-
+    position: relative;
+    left: -17vw;
+    margin: auto; 
+    width: 40%;
+}
   .kalender {
       border: 1px solid #6259FA;
       background-color: #16162A; 
@@ -160,8 +159,7 @@
     background-color: #16162A; 
     color: white;
     border-radius: 10px;
-    padding: 0.5vw 0vw 0.5vw 2vw;
-    margin-bottom: 8vw;
+    padding: 0.5vw 0vw 0.5vw 1vw;
   }
 
 .psw {
@@ -188,9 +186,91 @@
       border: none;
       
   }
+  
+  #games_grid {
+    position: relative;
+    left: -2vw;
+    top: -4vw;
+      line-height: 1;
+      display: grid; 
+      grid-template-columns: 5fr auto 5fr auto;
+      border: none;
+      padding: 0vw;
+      margin-left: -2vw;
+      margin-right: -2vw;
+}
 
- 
+#abilities_grid {
+    position: relative;
+    left: -2vw;
+    top: -4vw;
+      line-height: 1.5;
+      display: grid; 
+      grid-template-columns: 5fr auto 5fr auto;
+      border: none;
+      padding: 0vw;
+      margin-left: -2vw;
+      margin-right: -2vw;
+}
 
- 
+#improvements_grid {
+    position: relative;
+    left: -2vw;
+    top: -4vw;
+      line-height: 1.5;
+      display: grid; 
+      grid-template-columns: 5fr auto 5fr auto;
+      border: none;
+      padding: 0vw;
+      margin-left: -2vw;
+      margin-right: -2vw;
+}
+
+#services_grid {
+    position: relative;
+    left: 3vw;
+    top: -4vw;
+      line-height: 1.5;
+      display: grid; 
+      grid-template-columns: 4fr 1fr;
+      border: none;
+      padding: 0vw;
+      margin-left: -2vw;
+      margin-right: -2vw;
+}
+
+.submit_text {
+    font-family: Uniform Pro Con;
+    font-weight: normal;
+    text-align: center;
+    color:#5BE080;
+}
+
+.submit {
+    font-family: Uniform Pro Con;
+    font-weight: normal;
+    background-color: #16162A;
+    border: 1px solid #5BE080;
+    color: white;
+    border-radius: 10px;
+    padding: 1vw 6vw 1vw 6vw;
+    width: 40%;
+    margin: auto; 
+    display: flex; 
+    justify-content: center;
+    margin-top: 5vw;
+}
+
+@media only screen and (min-width: 600px) {
+    
+    form {
+        top: -25vw;
+        width: 50vw;
+        height: 40vw;
+        left: 15vw;
+    }
+
+
+}
 
 
