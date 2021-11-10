@@ -34,9 +34,9 @@
             <input type="text" id="gamingtag" name="gamertag">
         </span>
             </div>
-            <button class="next">Next</button>
+        <button class="next">Next</button>
         </div>
-        <!-- <div class="section_1 hide">
+        <div class="section_1 hide">
             <h1>Age and location</h1>
             <h2>How old are you and where are you from?</h2>
             <label for="dob">Date of Birth</label>
@@ -45,7 +45,7 @@
                 <label for="continent" class="continent">Continent</label>
                 <label for="country" class="country">Country</label>
             </div>
-            <select name="" id="continents">
+            <select name="continent" id="continents">
             
                 <option value="Africa">Africa</option>
                 <option value="Asia">Asia</option>
@@ -59,14 +59,14 @@
 
 
 
-            <select name="" id="countries">
+            <select name="country" id="countries">
                 <option value="Country1">Country 1</option>
                 <option value="Country2">Country 2</option>
                 <option value="Country3">Country 3</option>
                 <option value="Country4">Country 4</option>
                 <option value="Country5">Country 5</option>
             </select>
-            <button class="next">Next</button>
+             <button class="next">Next</button>
         </div>
         <div class="section_2 hide">
             <h1>Create your account</h1>
@@ -76,11 +76,11 @@
             <label for="psw" class="psw">Password</label>
             <input type="password" id="psw" name="password">
             <button class="next next2">Next</button>
-        </div> -->
-         <!-- <div class="section_3">
+        </div>
+        <div class="section_3 hide">
             <h1>Styles of gaming</h1>
             <h2>Which style of gaming do you play?</h2>
-            <fieldset id="gaming_styles_grid">
+            <fieldset id="gaming_styles_grid" name="game_style">
                 <legend id="gaming_styles"></legend>
                 <label for="FPS">FPS</label>
                 <input type="checkbox" id="FPS" name="game_style" value="FPS">
@@ -111,13 +111,12 @@
                 <label for="Platform">Platform</label>
                 <input type="checkbox" id="Platform" name="game_style" value="Platform">
             </fieldset>
-            <button class="next">Next</button>
-        </div> -->
-          <!-- <div class="section_4">
-            <h1>Games</h1>
-            <h2>What games do you play?</h2>
-            <fieldset id="games_grid">
-                <legend id="games"></legend>
+        <button class="next">Next</button> 
+        </div>
+        <div class="section_4 hide">
+            <fieldset name="game">
+                <legend>Games</legend>
+                <input type="checkbox" id="CSGO" name="game" value="CSGO">
                 <label for="CSGO">CS:GO</label>
                 <input type="checkbox" id="CSGO" name="game" value="CSGO">
                 <label for="Tekken">Tekken</label>
@@ -162,13 +161,12 @@
                 <input type="checkbox" id="Minecraft" name="game" value="Minecraft">
             </fieldset>
             <button class="next">Next</button>
-        </div>  -->
-         <!-- <div class="section_5 hide">
+        </div>
+        <div class="section_5 hide">
             <h1>Strengths</h1>
             <h2>What are your strengths?</h2>
-            <fieldset id="abilities_grid">
-                <legend id="abilities"></legend>
-                <label for="handeye">Hand/eye coord</label>
+            <fieldset name="strength">
+                <legend>Abillities</legend>
                 <input type="checkbox" id="handeye" name="strength" value="">
                 <label for="reaction">Reaction time</label>
                 <input type="checkbox" id="reaction" name="strength" value="">
@@ -202,13 +200,12 @@
                 <input type="checkbox" id="leadership" name="strength" value="">
             </fieldset>
             <button class="next">Next</button>
-        </div> -->
-        <!-- <div class="section_6 hide">
+        </div>
+        <div class="section_6 hide">
             <h1>Improvements</h1>
             <h2>What areas of your gameplay would you like to improve?</h2>
-            <fieldset id="improvements_grid">
-                <legend id="improvements"></legend>
-                <label for="handeye_imp">Hand/eye coord</label>
+            <fieldset name="improvement">
+                <legend>Abilities</legend>
                 <input type="checkbox" id="handeye_imp" name="improvement" value="">
                 <label for="reaction_imp">Reaction time</label>
                 <input type="checkbox" id="reaction_imp" name="improvement" value="">
@@ -242,12 +239,13 @@
                 <input type="checkbox" id="leadership_imp" name="improvement" value="">
             </fieldset>
             <button class="next">Next</button>
-        </div> -->
-        <!-- <div class="section_7 hide">
+        </div>
+        <div class="section_7 hide">
             <h1>Services</h1>
             <h2>What services are you interested in?</h2>
-            <fieldset id="services_grid">
-                <legend id="services"></legend>
+            <fieldset name="service">
+                <legend>Services</legend>
+                <input type="checkbox" id="1" name="service" value="">
                 <label for="">I'd like to receive newsletters</label>
                 <input type="checkbox" id="1" name="service" value="">
                 <label for="">I'd like a mentor</label>
@@ -258,11 +256,17 @@
                 <input type="checkbox" id="4" name="service" value="">
                 <label for="">I'd like to receive articles</label>
                 <input type="checkbox" id="5" name="service" value="">
-                   </fieldset>
-            <p class="submit_text">You can always change your mind later regarding the services you'd like.</p>
-            <button class="submit">Submit</button>
-        </div> -->
+                <label for="">I'd like to receive articles</label>
+            </fieldset>
+            <p>You can always change your mind later regarding the services you'd like.</p>
+            <button class="submit">Submit</button> 
+        </div>
+
+
+
     </form>
+
+    <button class="next">Next</button>
 
     <div id="dots_bottom">
         <img src="/img/mobile_dots_bottom.png" alt="">
