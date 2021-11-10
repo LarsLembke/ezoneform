@@ -25,7 +25,7 @@ function start() {
 
     function nextSection() {
 
-        document.querySelector(`.section_${i}`).classList.add("hide");
+        document.querySelector(`.section_${i}`).classList.add("remove");
 
         i++;
 
@@ -36,13 +36,17 @@ function start() {
             document.querySelector(`.section_${i}`).classList.remove("hide");
 
         } else {
-            console.log("done");
+            console.log(i)
 
             document.querySelector(`.section_${i}`).classList.remove("hide");
 
             document.querySelector(".next").textContent = "Submit";
 
-            document.querySelector(".next").removeEventListener;
+            document.querySelector(".next").removeEventListener("click", nextSection);
+
+
+
+            void(document.querySelector("body").offsetHeight)
 
             document.querySelector(".next").addEventListener("click", readData);
         }
@@ -80,6 +84,13 @@ function start() {
 
 
     function readData() {
+
+        console.log(document.querySelector("button.next.submit"));
+
+
+        void(document.querySelector("body").offsetHeight)
+
+        document.querySelector(".next").removeEventListener("click", readData);
 
         console.log("readData");
 
