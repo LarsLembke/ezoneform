@@ -17,7 +17,7 @@
 
     <form>
 
-        <!-- <div id="who_are_you" class="section_0">
+        <div id="who_are_you" class="section_0">
             <h1>Let's get to know you!</h1>
             <h2>Who are you?</h2>
             <div id="who_are_you_options">
@@ -34,7 +34,7 @@
             <input type="text" id="gamingtag" name="gamertag">
         </span>
             </div>
-            <button class="next">Next</button>
+            <!-- <button class="next">Next</button> -->
         </div>
         <div class="section_1 hide">
             <h1>Age and location</h1>
@@ -45,7 +45,7 @@
                 <label for="continent" class="continent">Continent</label>
                 <label for="country" class="country">Country</label>
             </div>
-            <select name="" id="continents">
+            <select name="continent" id="continents">
             
                 <option value="Africa">Africa</option>
                 <option value="Asia">Asia</option>
@@ -59,14 +59,14 @@
 
 
 
-            <select name="" id="countries">
+            <select name="country" id="countries">
                 <option value="Country1">Country 1</option>
                 <option value="Country2">Country 2</option>
                 <option value="Country3">Country 3</option>
                 <option value="Country4">Country 4</option>
                 <option value="Country5">Country 5</option>
             </select>
-            <button class="next">Next</button>
+            <!-- <button class="next">Next</button> -->
         </div>
         <div class="section_2 hide">
             <h1>Create your account</h1>
@@ -75,17 +75,12 @@
             <input type="email" id="email" name="email">
             <label for="psw" class="psw">Password</label>
             <input type="password" id="psw" name="password">
-            <button class="next next2">Next</button>
-<<<<<<< HEAD
+            <!-- <button class="next next2">Next</button> -->
         </div>
         <div class="section_3 hide">
-=======
-        </div> -->
-        <div class="section_3">
->>>>>>> 64d4965ab2051aa49a753a7ddd01cb3457299a8b
             <h1>Styles of gaming</h1>
             <h2>Which style of gaming do you play?</h2>
-            <fieldset id="gaming_styles_grid">
+            <fieldset id="gaming_styles_grid" name="game_style">
                 <legend id="gaming_styles"></legend>
                 <label for="FPS">FPS</label>
                 <input type="checkbox" id="FPS" name="game_style" value="FPS">
@@ -116,14 +111,10 @@
                 <label for="Platform">Platform</label>
                 <input type="checkbox" id="Platform" name="game_style" value="Platform">
             </fieldset>
-            <button class="next">Next</button>
+            <!-- <button class="next">Next</button> -->
         </div>
-<<<<<<< HEAD
         <div class="section_4 hide">
-=======
-        <!-- <div class="section_4">
->>>>>>> 64d4965ab2051aa49a753a7ddd01cb3457299a8b
-            <fieldset>
+            <fieldset name="game">
                 <legend>Games</legend>
                 <input type="checkbox" id="CSGO" name="game" value="CSGO">
                 <label for="CSGO">CS:GO</label>
@@ -168,12 +159,12 @@
                 <input type="checkbox" id="Minecraft" name="game" value="Minecraft">
                 <label for="Minecraft">Minecraft</label>
             </fieldset>
-            <button class="next">Next</button>
+            <!-- <button class="next">Next</button> -->
         </div>
         <div class="section_5 hide">
             <h1>Strengths</h1>
             <h2>What are your strengths?</h2>
-            <fieldset>
+            <fieldset name="strength">
                 <legend>Abillities</legend>
                 <input type="checkbox" id="handeye" name="strength" value="">
                 <label for="handeye">Hand/eye coordination</label>
@@ -208,12 +199,12 @@
                 <input type="checkbox" id="leadership" name="strength" value="">
                 <label for="leadership">Leadership</label>
             </fieldset>
-            <button class="next">Next</button>
+            <!-- <button class="next">Next</button> -->
         </div>
         <div class="section_6 hide">
             <h1>Improvements</h1>
             <h2>What areas of your gameplay would you like to improve?</h2>
-            <fieldset>
+            <fieldset name="improvement">
                 <legend>Abilities</legend>
                 <input type="checkbox" id="handeye_imp" name="improvement" value="">
                 <label for="handeye_imp">Hand/eye coordination</label>
@@ -249,12 +240,12 @@
                 <label for="leadership_imp">Leadership</label>
 
             </fieldset>
-            <button class="next">Next</button>
+            <!-- <button class="next">Next</button> -->
         </div>
         <div class="section_7 hide">
             <h1>Services</h1>
             <h2>What services are you interested in?</h2>
-            <fieldset>
+            <fieldset name="service">
                 <legend>Services</legend>
                 <input type="checkbox" id="1" name="service" value="">
                 <label for="">I'd like to receive newsletters</label>
@@ -268,12 +259,14 @@
                 <label for="">I'd like to receive articles</label>
             </fieldset>
             <p>You can always change your mind later regarding the services you'd like.</p>
-            <button class="submit">Submit</button>
-        </div> -->
+            <!-- <button class="submit">Submit</button> -->
+        </div>
 
 
 
     </form>
+
+    <button class="next">Next</button>
 
     <div id="dots_bottom">
         <img src="/img/mobile_dots_bottom.png" alt="">
