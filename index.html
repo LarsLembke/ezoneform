@@ -114,8 +114,8 @@
             <!-- <button class="next">Next</button> -->
         </div>
         <div class="section_4 hide">
-            <fieldset name="game">
-                <legend>Games</legend>
+            <fieldset name="game" id="gaming_styles_grid">
+                <legend id="games_grid"></legend>
                 <input type="checkbox" id="CSGO" name="game" value="CSGO">
                 <label for="CSGO">CS:GO</label>
                 <input type="checkbox" id="Tekken" name="game" value="Tekken">
@@ -164,8 +164,8 @@
         <div class="section_5 hide">
             <h1>Strengths</h1>
             <h2>What are your strengths?</h2>
-            <fieldset name="strength">
-                <legend>Abillities</legend>
+            <fieldset name="strength" id="abilities_grid">
+                <legend></legend>
                 <input type="checkbox" id="handeye" name="strength" value="">
                 <label for="handeye">Hand/eye coordination</label>
                 <input type="checkbox" id="reaction" name="strength" value="">
@@ -204,8 +204,8 @@
         <div class="section_6 hide">
             <h1>Improvements</h1>
             <h2>What areas of your gameplay would you like to improve?</h2>
-            <fieldset name="improvement">
-                <legend>Abilities</legend>
+            <fieldset name="improvement" id="improvements_grid">
+                <legend></legend>
                 <input type="checkbox" id="handeye_imp" name="improvement" value="">
                 <label for="handeye_imp">Hand/eye coordination</label>
                 <input type="checkbox" id="reaction_imp" name="improvement" value="">
@@ -245,8 +245,8 @@
         <div class="section_7 hide">
             <h1>Services</h1>
             <h2>What services are you interested in?</h2>
-            <fieldset name="service">
-                <legend>Services</legend>
+            <fieldset name="service" id="services_grid">
+                <legend></legend>
                 <input type="checkbox" id="1" name="service" value="">
                 <label for="">I'd like to receive newsletters</label>
                 <input type="checkbox" id="2" name="service" value="">
@@ -258,7 +258,7 @@
                 <input type="checkbox" id="5" name="service" value="">
                 <label for="">I'd like to receive articles</label>
             </fieldset>
-            <p>You can always change your mind later regarding the services you'd like.</p>
+            <p class="submit_text">You can always change your mind later regarding the services you'd like.</p>
             <!-- <button class="submit">Submit</button> -->
         </div>
 
@@ -266,7 +266,7 @@
 
     </form>
 
-    <button class="next">Next</button>
+    <button class="next submit">Next</button>
 
     <div id="dots_bottom">
         <img src="/img/mobile_dots_bottom.png" alt="">
