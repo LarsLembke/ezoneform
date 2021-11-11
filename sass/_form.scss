@@ -34,7 +34,7 @@ label {
 
 span {
     position: relative;
-    top: -6.5vw;
+    top: -7vw;
     display: block;
     overflow: hidden;
     color: white;
@@ -77,6 +77,7 @@ h2 {
     color: #B9F8B9;
     text-align: center;
     font-size: 2.2vw;
+    left: 1.5vw;
 }
 
 // .next {
@@ -287,7 +288,10 @@ h2 {
     margin: auto;
     display: flex;
     justify-content: center;
-    margin-top: -10vw;
+    margin-top: -37vw;
+    position: relative;
+    left: 1vw;
+ 
 }
 
 @media only screen and (min-width: 600px) {

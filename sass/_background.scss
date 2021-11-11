@@ -26,10 +26,12 @@ body {
     padding-top: 90vw; 
     padding-bottom: 20vw;
     left: -5vw;
+    pointer-events: none;
     
 }
 
 #web_dots_bottom img {
+    pointer-events: none;
     position: fixed;
     height: 80vw;
     width: 30vw;
