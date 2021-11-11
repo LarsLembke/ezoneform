@@ -6,6 +6,8 @@ form {
     border-left: 2px solid #6259FA;
     border-right: 2px solid #6259FA;
     border-bottom: 2px solid #6259FA;
+    padding-left: 4vw;
+    padding-right: 8vw;
 }
 
 form::before {
@@ -36,7 +38,7 @@ form::after {
               background-color: #6259FA;
               width: 3vw;
               height: 2px;
-              left: 53vw;
+              left: 49vw;
               
               
         }
